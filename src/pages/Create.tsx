@@ -11,7 +11,6 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import * as htmlToImage from 'html-to-image';
 import jsPDF from 'jspdf';
 import { useToast } from '@/hooks/use-toast';
-
 const Create = () => {
   const navigate = useNavigate();
   const location = useLocation();
